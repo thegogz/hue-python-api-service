@@ -1,0 +1,22 @@
+GET http://localhost:5000/api/ HTTP/1.1
+
+###
+
+POST http://localhost:5000/api/ HTTP/1.1
+content-type: application/json
+
+{
+    "saturation": 255,
+    "value": 255,
+    "hue": 25555
+}
+
+###
+
+POST http://localhost:5000/api/ HTTP/1.1
+content-type: application/json
+
+{
+    "on": true
+}
+
